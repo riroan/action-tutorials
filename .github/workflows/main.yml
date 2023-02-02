@@ -1,0 +1,14 @@
+name: Hello World
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    #- uses: action/checkout@v2
+    - name: Run pwd
+      run: pwd
+    - name: Run ls -al
+      run: ls -al
