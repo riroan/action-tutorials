@@ -13,7 +13,7 @@ jobs:
         key: ${{secrets.KEY}}
         port: ${{secrets.PORT}}
         script: |
-          cd actio-tutorials
+          cd action-tutorials
           git pull
         
       
